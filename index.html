@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>First Anniversary<3</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" type="ímage/png" href="favicon.jpg">
+  </head>
+
+
+  <body>
+  
+</div>
+    <div class="container">
+      <div class="countdown">
+        <b>WE ARE TOGETHER:</b>
+        <div class="time" id="days">00</div>
+        <div class="label">Days</div>
+        <div class="time" id="hours">00</div>
+        <div class="label">Hours</div>
+        <div class="time" id="minutes">00</div>
+        <div class="label">Minutes</div>
+        <div class="time" id="seconds">00</div>
+        <div class="label">Seconds</div>
+
+        <div class="bruhmoment">
+
+        </div>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            Happy Anniversary My Lovely Yanna!! I have prepared a small suprise for you - a selection of memories that we made!
+          </div>
+          <div class="swiper-slide"><img src="./img/1.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/2.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/3.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/4.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/5.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/6.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/7.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/8.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/9.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/10.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/11.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/12.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/13.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/14.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="./img/15.jpg" alt="" /></div>
+        </div>
+      </div>
+      
+  
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <span class="close-modal" id="close-modal">&times;</span>
+          <p>
+            <h2>❤️</h2>
+        <b>Dear Arianna,</b>Today is a very special day our first anniversary! We've shared so many lovely moments and learned so much about each other. Grabe it feels like just yesterday we met, but we've experienced so much together this past year—laughter, joy, tears, and lots of love and every moment i spent in your company fills me with indescribable love and joy like ionorrr i just I can't describe how you made me feel diejddj. You are my love of my life, my biggest inspiration, my number one friend, my everything and the one who makes my life full of light and meaning. You are the only one that i want to spend my entire time with. I would always rather have bad times with you than living in this world shitty world without you like what am I supposed to do without you? Because of you, i want to keep moving forward djdbedkek. Kaya If there's something that bothers you, always tell me kaagad okie? Don't bottle it up, sasabhin na you're okay but nahahalata sa actions mo na hindi or hide it away from me cause I'm always here to listen and I'll do my best to help and support you tsaka how mai supposed to comfort and lambing you if di mo sasabihin sakin kaagad ToT and lastly, i would never get tired of you because you never did sakin kaya don't be afraid to tell me jfjddjdjebsjebj I really wish na i could take away your troubles and pain in exchange na papunta sakin, kasi i would literally do that. I don't like seeing you being hurt over and over againjfjfjrr :((
+
+        I appreciate all of the things that you did and give sakin xjrbdjsbd like you've given me so much to the point na idk kung paano makakabawi sayo like you don't have to do all of that sakin T~T I'm happy and grateful just having you by side and enough na yun sakin djendjd pero thank you parin sa lahat djdnsn i cannot describe na how you made me feel like hindi nato naging formal letter ToT I'm just happyna I'm with you that's all and wala nakong hihilingin pa cuz you're more than enough sakin dhdbdsn I can't wait for all the adventures and happy moments ahead. Thank you for this incredible year. Let's make today special and memorable, just like every day we spend together. I love you so much my bb yana! Happy Anniversary<3
+          </p>
+        </div>
+      </div>
+      <button class="heart-button" id="Asong" onClick="playPause()">Press me ;)
+
+        <audio
+      src="MyEverything.mp3"
+      autoplay
+      loop> </audio> 
+      </button>
+
+      <script>
+        var aud = document.getElementById("ASong").children[0];
+        var isPlaying = false;
+        aud.pause();
+      
+        function playPause() {
+          if (isPlaying) {
+            aud.pause();
+          } else {
+            aud.play();
+          }
+          isPlaying = !isPlaying;
+        }
+      </script>
+
+    </div>
+    <script src="./js/timer.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+    <script src="./js/hearts.js"></script>
+  </body>
+</html>
